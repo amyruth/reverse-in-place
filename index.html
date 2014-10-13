@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8" />
+<title>Reverse-a-string</title>
+<link rel="stylesheet" type="text/css" href="bootstrap.css" media="all">
+<link rel="stylesheet" type="text/css" href="styles.css" media="all">
+<script src="jquery-1.11.1.js"></script>
+<script src="reverseinplace.js"></script>
+</head>
+	<body>
+	<div class="container">
+		<div class="jumbotron">
+			<h1>reverse a string in place</h1>
+			<h2>Generate backwards sentences the easy way</h2>
+		</div>
+		<form role="form" id="blanks">
+			<div class="form-group">
+				<label for="sourceText">Type a word or string of words here</label>
+				<input type="text" id="sourceText" class="form-control">
+			</div>
+				<button type="submit" class="btn btn-primary btn-lg">Back it up, reverse it!</button>
+		</form>
+
+		<div id="results">
+			<h3>Here's your backwards sentence:</h3>
+			<span id="reversed"></span>
+		</div>
+	</div> <!-- end container -->
+	</body>
+</html>
