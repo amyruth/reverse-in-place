@@ -9,7 +9,7 @@ var reverseInPlace = function(string){
   for(var i =0; i < splitstring.length; i+=1){
     //removes 1st word from array
     var word = splitstring.splice(0,1);
-    //turn it into a string, then splits into individual letters
+    //turn it into a string, then splits into array of letters
     //reverse array and rejoins as string
     word = word.join().split("").reverse().join("");
     reverseArray.push(word);
